@@ -1,0 +1,14 @@
+Instructions:
+
+1-) Connect Micro:bit to a computer via USB-C cable. Go to https://makecode.microbit.org/ and start a new project named Soil_Moisture.
+2-) Search for "On Button A pressed" and drag it to the codeblocks area.
+3-) Click to Variables and create a variable called "moistureReading".
+4-) Click Variables and drag "set moistureReading to ..." onto the purple block.
+5-) Search for "analog read pin P0" and drag it to the blank area.
+6-) Search for a purple "map" block and combine it to the step 5's output and drag them onto the main block.
+7-) Search for "show number" and drag it, search for "round" and drag it, click the variables and select the "moistureReading" and drag it. Combine the three as shown in the image. Add the block to the main block.
+8-) Search for clean screen and add it to the main block.
+9-) Check the codeblock_soil-moisture.PNG and arrange numbers as shown in the image.
+10-) On the bottom left just next to download you will see "three dots" vertically. Click on it and click on "Download as File". The file should be downloaded in "Downloads" folder.
+11-) Find the Micro:bit's folder in "This PC" folder and copy paste the .hex file from "Downloads" to Micro:bit's folder.
+12-) Unwire the USB cables from both PC and Micro:bit. It is ready for hardware setup.
