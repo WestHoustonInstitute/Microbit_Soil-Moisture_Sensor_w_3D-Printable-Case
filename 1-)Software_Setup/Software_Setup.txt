@@ -2,13 +2,18 @@ Instructions:
 
 1-) Connect Micro:bit to a computer via USB-C cable. Go to https://makecode.microbit.org/ and start a new project named Soil_Moisture.
 2-) Search for "On Button A pressed" and drag it to the codeblocks area.
-3-) Click to Variables and create a variable called "moistureReading".
-4-) Click Variables and drag "set moistureReading to ..." onto the purple block.
-5-) Search for "analog read pin P0" and drag it to the blank area.
-6-) Search for a purple "map" block and combine it to the step 5's output and drag them onto the main block.
-7-) Search for "show number" and drag it, search for "round" and drag it, click the variables and select the "moistureReading" and drag it. Combine the three as shown in the image. Add the block to the main block.
-8-) Search for clean screen and add it to the main block.
-9-) Check the codeblock_soil-moisture.PNG and arrange numbers as shown in the image.
-10-) On the bottom left just next to download you will see "three dots" vertically. Click on it and click on "Download as File". The file should be downloaded in "Downloads" folder.
-11-) Find the Micro:bit's folder in "This PC" folder and copy paste the .hex file from "Downloads" to Micro:bit's folder.
-12-) Unwire the USB cables from both PC and Micro:bit. It is ready for hardware setup.
+3-) Click to Variables and create a variable called "moisturereading".
+4-) Click Variables and drag "set moisturereading to ..." onto the purple block.
+5-) Search for "analog read pin P0" block and then "map" block. Drag both to the blank area.
+6-) Combine "analog read pin P0" function to the "map" functions end. Arrange the values as shown (0,750,0,100).
+7-) Find "show number" and "round" from the search. Find "moisturereading" from variables. Drag all to the blank area (Step-5.PNG).
+8-) Combine as shown in the image (Step-6.PNG).
+9-) Search for clean screen and add it to the main block. And the coding part is completed!
+10-) Check the Step-8_Complete.PNG to ensure you have the same code.
+11-) Press download and unplug micro:bit from computer.
+
+** Optional ** 
+If the download button doesn't automatically paste the code to the micro:bit, use the following steps to ensure you have .hex file pasted to micro:bit:
+1-) On the bottom left corner, just next to download button, you will see "three dots" vertically. Click on it and click on "Download as File". The file should be downloaded in "Downloads" folder.
+2-) Find the micro:bit's folder in "This PC" folder and copy paste the .hex file from "Downloads" to Micro:bit's folder.
+3-) Unwire the USB cables from both PC and Micro:bit. It is ready for hardware setup.
