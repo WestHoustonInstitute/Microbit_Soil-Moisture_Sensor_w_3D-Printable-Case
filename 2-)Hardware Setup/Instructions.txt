@@ -1,5 +1,0 @@
-1-) Fit the Micro:bit into the port of the Sensor Shield.
-2-) Wire the S,V,G of the sensor to S,V1,G of the Sensor Shield.
-3-) Wire the battery to the Sensor Shield's IIC G,V2.
-
-Check the images to ensure you are on the right track.
